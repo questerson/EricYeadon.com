@@ -184,11 +184,25 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 1.5em;
 	}
+	.container2 {
+		width: 80%;
+		margin-right:auto;
+		margin-left: auto;
 
+	}
 	br.clear {
 		clear: both;
 	}
-
+	.major-icons {
+		 list-style: none;
+		 
+	}
+	.major-icons li {
+		float: left;
+		width: 12%;
+		font-size: 30px;
+		display: block;
+	}
 	.features {
 		margin-bottom: 1.5em;
 	}
@@ -2374,6 +2388,21 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+/* contact form */
+
+#contact-box{
+margin-left: auto;
+width: 20%;
+}
+
+#feature-icon{
+	width: 60%;
+	min-width: 400px;
+	margin-left:30%;
+	margin-right: auto;
+	background-color: red;
+}
+
 
 /* Footer */
 
