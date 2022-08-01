@@ -2152,10 +2152,10 @@ input, select, textarea {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(#342e2e 15%, #8f330e 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #342e2e 15%, #8f330e 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #342e2e 15%, #8f330e 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg,  #342e2e 15%, #8f330e 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(#274c78 15%, #567641 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #274c78 15%, #567641 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #274c78 15%, #567641 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg,  #274c78 15%, #567641 55%);
 		background-color: #f08c89;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
@@ -2359,7 +2359,7 @@ input, select, textarea {
 		#hero .button {
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
-			color: #f08c89;
+			color: #56b3ff;
 			font-size: 1.25em;
 		}
 
