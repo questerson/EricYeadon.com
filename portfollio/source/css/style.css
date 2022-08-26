@@ -1,0 +1,217 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: 245,249,252;
+    min-width: 400px;
+  }
+  header {
+    height: 57px;
+    border-bottom: 2px solid rgb(49, 44, 44);
+    }
+  header nav * {
+    visibility: hidden;
+    }
+
+  .mobile { 
+    visibility: visible;
+    float: left;
+  }  
+    
+  
+  header h1 { 
+    margin-left: 150px;
+    visibility: visible;
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+
+  main {
+    background: rgb(245,249,252);
+  
+    
+  }
+
+  .third > section > img {
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    width:35px;
+    height: 35px;
+}
+.third > section { 
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+}
+  @media only screen and (min-width: 600px) {
+   
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 600px; 
+
+}
+
+.mobile {
+ 
+  visibility: hidden;
+}
+/***************************************
+/* LAYOUT
+/******************************************/
+
+header  { 
+  width: 100%;
+
+}
+header nav {
+  float: left;
+  width: 100%;
+  
+}
+
+header nav ul{
+    text-align:center;
+    width:60%;
+    margin-left: auto;
+    margin-right:auto; 
+    
+}
+
+header nav li {
+  float: left;
+  padding: 0 20px 0 20px;
+  list-style: none;
+}
+
+header nav img { 
+
+float:right;
+
+}
+
+nav > img { 
+  margin: 10px;
+}
+header nav li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(49, 54, 99);
+}
+
+
+main {
+  background: rgb(245,249,252);
+
+  
+}
+main > section .maintext {
+
+  float: left;
+  width:35%;
+  padding: 40px 10px 10px 10px;
+  padding-left: 100px;
+}
+.maintext h2 {
+  font-size: 30px;
+  
+}
+ .mainsection{
+  float: left;
+  width: 100%;
+}
+.maintext { 
+   float: left ;
+   width: 50%;
+}
+ .right img { 
+   height: 100%;
+   width: 100%;
+   float: left;
+}
+section .right {
+  float: right;
+  width: 50%;
+}
+
+
+
+ .third {
+  width: 25%;
+  float: right;
+}
+.third > section { 
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+
+.third > section > img {
+    margin-right:auto;
+    margin-left: auto;
+    display: block;
+    width:35px;
+    height: 35px;
+}
+.third > section > a {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-decoration: none;
+   color:gray;
+}
+
+header nav h1 { 
+	float: left;
+	font-size:30px;
+  color:rgb(36, 33, 73);
+  margin: 6px 0 0 0;
+
+ }
+
+footer  {
+background-color: rgb(240, 244, 255);
+
+}
+footer > section {
+  margin: 0;
+padding: 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 20px;
+}
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

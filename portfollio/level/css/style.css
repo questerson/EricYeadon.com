@@ -1,0 +1,175 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+ 
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+background-color: rgb(59, 58, 58);
+width: 60%;
+min-width: 900px;
+margin-left:  auto;
+margin-right: auto;
+height: 100%;
+margin-top: 0;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+	
+  background-color: rgb(102, 118, 138) ;
+
+
+}
+
+nav *{ 
+ 
+  color: white;
+
+}
+
+.center {
+  float: none;
+  position: absolute;
+  left: 50%;
+  
+}
+header nav .floatright {
+  float: right;
+  padding: 10px;
+}
+
+header nav a { 
+  float: left; 
+  text-decoration: none;
+
+}
+
+header nav ul {
+  width: 100%;
+  background-color:rgb(102, 118, 138) ;
+  margin: 0;
+}
+header nav ul li {
+  padding-top: 10px;
+  float: left;
+  list-style: none;
+  color: brown;
+  width: 15%;   
+}
+section { 
+  width: 100%;
+  padding-top: 60px;
+  float: left;
+  height: 300px;
+  background-color: rgb(102, 118, 138);
+
+}
+
+main section a { 
+  text-align: center;
+  margin-left: 35%;
+ 
+}
+main section + section {
+  background-color: white;
+}
+main section + section + section{
+  background-color: rgb(219, 223, 226);
+  width: 50%;
+  float: left;
+  height: 450px;
+}
+main section + section + section +section +section{
+  background-color: white;
+  width: 100%;
+  float: left;
+}
+
+.top {
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.mid {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mid img {
+   margin-left: 80px;
+   margin-right: auto;
+}
+
+.bottom {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1, h2, h4, h5, h6, p, a {
+  text-align: center;
+  text-decoration: none;
+ 
+}
+footer {
+  width: 100%;
+}
+footer section  { 
+  width: 100%;
+  background-color: rgb(22, 31, 42);
+  padding-top: 0px; 
+
+}
+
+footer section section  {
+  float: left;
+  width: 200px;
+  
+}
+footer section section + section { 
+  float: right;
+  color: white;
+}
+
+footer section section nav {
+  float:left; 
+  width: 150px;
+}
+footer ul li {
+  list-style: none;
+  float: left;
+  text-align: start;
+  padding: 5px 10px;
+}
+footer ul { 
+  padding:0;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,0 +1,398 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+    header nav ul { 
+      visibility: hidden;
+      height: 0px;
+    }
+
+    .main {
+      width: 95%;
+    }
+    .top {
+      height: 500px;
+      background-image: url(../photos/banners.jpg);
+      background-size:contain;
+      background-repeat:no-repeat;
+    }
+    
+    .top > section { 
+       width: 200px;
+       float: left;
+      margin-left: 100px;
+      }
+    .top > section > section { 
+      background-color: rgba(60, 60, 60, 0.8);
+      color: white;
+      width: 200px;
+      height: 280px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .coupon h6 {
+      font-size: 20px;
+      margin: 10px;
+    padding-top: 20px;
+    }
+    .coupon h4 {
+      padding: 3px;
+      font-size: 28px;
+      margin: 18px;
+      margin-top: 10px;  
+    }
+    .coupon a {
+      margin: 28px;
+      margin-top: 10px;
+      background-color: black;
+      
+    }
+    .mid { 
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 30px;
+       height:350px;
+    }
+    
+    .thirds {
+     
+      float: left;
+    }
+    
+    .video { 
+       background-color: rgba(60, 60, 60, 0.04);
+       margin-left: auto;
+       margin-right: auto;
+    }
+    
+    .half { 
+       float: left;
+      
+       text-align: center;
+    }
+    .half  section + section  {
+      background-color: greenyellow;
+    }
+    
+    
+    section .profiles {
+     
+    }
+    .hairdressers {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    
+    .textholder { 
+      background-color: black;
+      width: 100%;
+      color: white;
+    }
+    .coupon2 {
+      height: 350px;
+       background-image: url(../photos/coupon.jpg);
+       background-size:cover;
+       background-repeat:no-repeat;
+    }
+    
+    .coupon2 > section {
+    
+      margin-left: 3px;
+      padding-top: 50px;
+    }
+    .coupon > .button {  
+      padding: 12px 15px;
+      background-color: rgb(204, 204, 204);
+      display: inline-block;
+    }
+    section .button {
+      padding: 8px 20px;
+      border-radius: 4px;
+      color: white;
+      background-color: rgb(0, 0, 0);
+    }
+    .coupon2 p {
+      font-size: 15px;
+    }
+    .coupon2 h5 {
+      font-size: 25px;
+    }
+    
+    .photogal {
+      width: 600px;
+      height: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    
+    
+    }
+    
+    .photogal img {
+    
+      float: left;
+      padding: 25px;
+    }
+    
+    
+    
+    
+
+
+  }
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+@media only screen and (min-width: 600px) {
+   
+header {
+  background-color: white;
+  height: 150;
+  width: 90%;
+  padding-left: 10%;
+}
+
+header  section { 
+  float:left
+}
+
+header nav {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+header nav li { 
+  text-align: center;
+   width: 120px;
+   height: 60px;
+  float: left;
+  list-style: none;
+
+}
+header nav li a{
+  text-decoration: none;
+  color: black;
+
+}
+header nav section {
+  float: right;
+
+}
+header nav section a {
+  float: right;
+  text-decoration: none;
+  color: black; 
+
+}
+.main {
+  width: 80%;
+  min-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top {
+  height: 500px;
+  background-image: url(../photos/banners.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.top > section { 
+   width: 400px;
+   float: left;
+  margin-left: 100px;
+  }
+.top > section > section { 
+  background-color: rgba(60, 60, 60, 0.8);
+  color: white;
+  width: 200px;
+  height: 280px;
+  margin-top: 18px;
+ 
+}
+.coupon h6 {
+  font-size: 20px;
+  margin: 10px;
+padding-top: 20px;
+text-align: center;
+}
+.coupon h4 {
+  padding: 3px;
+  font-size: 28px;
+  margin: 18px;
+  margin-top: 10px; 
+  text-align: center; 
+}
+.coupon a {
+  margin: 28px;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+ 
+ 
+}
+
+.coupon > .button {  
+  padding: 12px 15px;
+  background-color: rgb(204, 204, 204);
+  display: inline-block;
+}
+section .button {
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+.mid { 
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+   height:350px;
+}
+
+.thirds {
+  width: 33%;
+  float: left;
+}
+
+.video { 
+   background-color: rgba(60, 60, 60, 0.04);
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.half { 
+   float: left;
+   width: 50%;
+   text-align: center;
+}
+.half  section + section  {
+  background-color: greenyellow;
+}
+
+.half img { 
+  margin: 45px;
+   padding-left: 50px;
+}
+section .profiles {
+  margin-top: 50px;
+  padding-left: 200px;
+}
+.hairdressers {
+  width: 30%;
+  float: left;
+}
+
+.textholder { 
+  background-color: black;
+  width: 370px;
+  color: white;
+  text-align: center;
+  display: inline-block; 
+}
+.coupon2 {
+  
+  height: 350px;
+   background-image: url(../photos/coupon.jpg);
+   background-size:cover;
+   background-repeat:no-repeat;
+}
+
+.coupon2 > section {
+
+  width: 300px;
+  margin-left: 300px;
+  padding-top: 50px;
+}
+
+.coupon2 p {
+  font-size: 15px;
+}
+.coupon2 h5 {
+  font-size: 25px;
+}
+
+.photogal {
+  width: 100%;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.photogal img {
+  overflow: hidden;
+  float: left;
+  padding: 10px;
+}
+
+
+.cutter {
+  overflow: hidden;
+  width: 33%;
+  float:left;
+  
+}
+.cutter img {
+	width: 100%;
+	padding: 1%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

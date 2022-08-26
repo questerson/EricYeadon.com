@@ -1515,7 +1515,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media wrascreen and (max-width: 480px) {
 
 			.row {
 				display: flex;
@@ -1834,6 +1834,24 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 	}
+	ul.actions-lower li {
+		width: 200px;
+		float: right;
+	
+	}
+	ul.actions-lower.major {
+		text-align: center;
+	}
+
+	ul.actions-lower li {
+		display: inline-block;
+		
+		padding-left: 0;
+	}
+
+		ul.actions-lower li:first-child {
+			margin-left: 0;
+		}
 
 		ul.actions.major {
 			text-align: center;
@@ -2091,6 +2109,8 @@ input, select, textarea {
 		.image-wrapper .image {
 			position: relative;
 			z-index: 2;
+			border: 1px solid;
+			width: 100%;
 		}
 
 		.image-wrapper.first:before {
@@ -2110,10 +2130,10 @@ input, select, textarea {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(#342e2e 15%, #8f330e 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #342e2e 15%, #8f330e 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #342e2e 15%, #8f330e 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg,  #342e2e 15%, #8f330e 55%);
 		background-color: #f08c89;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
@@ -3028,8 +3048,14 @@ width: 20%;
 			ul.actions li {
 				display: block;
 				margin: 1em 0 0 0;
+			
 			}
 
+			ul.actions-lower li {
+				width: 500px;
+				background-color: red;
+			
+			}
 				ul.actions li:first-child {
 					margin-top: 0;
 				}
