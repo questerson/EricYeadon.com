@@ -195,14 +195,35 @@ input, select, textarea {
 	}
 	.major-icons {
 		 list-style: none;
+
+	
 		 
 	}
 	.major-icons li {
 		float: left;
-		width: 12%;
-		font-size: 30px;
-		display: block;
-	}
+		
+		font-size: 60px;
+		margin-left: 5%;
+		margin-top: 10%;
+		display:block;
+		}
+
+
+		#feature-icon{
+		
+		
+			margin-left: auto;
+			
+			min-width: 450px;
+			width:80%;
+			height: 100px;
+		
+		}
+
+
+
+
+
 	.features {
 		margin-bottom: 1.5em;
 	}
@@ -230,11 +251,13 @@ input, select, textarea {
 
 	header {
 		margin-bottom: 1.5em;
+		margin-top: 20px;
 	}
 
 		header > p {
 			display: block;
 			color: #f35858;
+			
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -2415,13 +2438,7 @@ margin-left: auto;
 width: 20%;
 }
 
-#feature-icon{
-	width: 60%;
-	min-width: 400px;
-	margin-left:30%;
-	margin-right: auto;
-	background-color: red;
-}
+
 
 
 /* Footer */
